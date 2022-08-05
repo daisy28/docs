@@ -229,7 +229,7 @@ h2 {
   .privacy-policy,
   .preview,
   .cta {
-    width: 600px;
+    width: 500px;
   }
 
   .cta-img,
@@ -248,9 +248,19 @@ h2 {
     margin: 2rem auto;
   }
 
+  .tc-generator-img,
+  .privacy-policy-img {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
   .tc-generator-img img,
   .privacy-policy-img img {
-    width: 170px;
+    width: 150px;
+  }
+
+  .preview{
+    margin-bottom: 2rem;
   }
 
   .preview-img img {
@@ -333,11 +343,10 @@ h2 {
     height: 428.44px;
   }
 
-  .tc-generator-img,
-  .privacy-policy-img {
+  .privacy-policy-img,
+  .tc-generator-img {
     width: 800px;
     height: 557.55px;
-    display: flex;
     justify-content: space-between;
   }
 
@@ -397,6 +406,6 @@ h2 {
   }
 
   .cta-btn {
-    width: 25%;
+    width: 35%;
   }
 }
